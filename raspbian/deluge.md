@@ -33,6 +33,7 @@ Configure daemon
 > deluged && deluge-console
 
 2.  Set `allow remote`
+
   1. check status
   > config allow_remote
 
@@ -49,11 +50,13 @@ Connect with deluge client (from your PC)
 -
 1. Start delgue client
 2. Disable classic mode
+
   1. Go to `Settings(Ctrl + P)` > `Interface` 
   2. Uncheck `Classic mode`
   3. Click on `Apply`
 3. Restart client
 4. Add connection 
+
   - Hostname: Raspberry's IP address
   - Username and Password (from _Configure authentication step 3._)
 
