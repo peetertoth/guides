@@ -33,7 +33,6 @@ Configure daemon
 > deluged && deluge-console
 
 2.    Set `allow remote`
-
     1. check status
     > config allow_remote
 
