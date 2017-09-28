@@ -1,6 +1,9 @@
 Enable full read and write support for NTFS partitions
 =
 
+Update and upgrade
+> sudo apt-get update && sudo apt-get upgrade
+
 Install `ntfs-3g`
 > sudo apt-get install ntfs-3g
 
@@ -16,11 +19,11 @@ Unmount if necessary
 Mount
 > sudo mount /dev/sda1 /media/pi/hdd
 
-Get drive UUID
-> lsblk -f
-
 Setup manual mount
 -
+
+Get drive UUID
+> lsblk -f
 
 Open `fstab` with text editor
 > sudo nano /etc/fstab
